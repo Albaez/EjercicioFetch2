@@ -1,0 +1,32 @@
+body {
+    background-color: #b486dfbd; 
+    font-family: Arial, sans-serif; 
+    color: wheat;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.card {
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+
+.card {
+    width: 100%; 
+    max-width: 300px; 
+}
+
+
+.card-title {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-bottom: 0.5rem; 
+}
